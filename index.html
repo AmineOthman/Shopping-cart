@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Shop card</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    
+    <body>
+    <div class="container">
+        <table class="table">
+            <tbody>
+              
+              <tr>
+                <th scope="col" style="padding-top: 50px"><i class="fas fa-times"></i></th>
+                <th scope="col" style="padding-top: 50px"><i class="fas fa-heart"></i></th>
+                 
+                <th scope="col"><img src="converse.PNG" width="150px" height="100px"></th>
+                <th>
+                    <form action="/action_page.php" style="padding-top: 35px">
+                        <input type="button" value="+"  onclick="plus1()">
+                        <span id="price1">0</span>
+                        <input type="button" value="-" onclick="minus1()">
+                      </form>
+                </th>
+                <th scope="col" style="width:80px;padding-top: 50px">$<span id="total1">0</span></th>
+                
+              </tr>
+            
+            
+              <tr>
+               <th scope="col" style="padding-top: 50px"><i class="fas fa-times"></i></th>
+                <th scope="col" style="padding-top: 50px"><i class="fas fa-heart"></i></th>
+                
+                <th scope="col"><img src="sneaker.PNG" width="150px" height="100px"></th>
+                
+                <th>
+                    <form action="/action_page.php" style="padding-top: 35px">
+
+                        <input type="button" value="+" onclick="plus2()">
+                        <span class="quantity" id="price2">0</span>
+                        <input type="button" value="-" onclick="minus2()">
+                      
+                      </form>
+                </th>
+                <th scope="col" style="padding-top: 50px">$<span id="total2">0</span></th>
+            </tr>
+              <tr>
+                
+                <th scope="col" style="padding-top: 50px"><i class="fas fa-times"></i></th>
+                <th scope="col" style="padding-top: 50px"><i class="fas fa-heart"></i></th>
+                
+                <th scope="col"><img src="scarf.PNG" width="150px" height="100px"></th>
+                <th>
+                    <form action="/action_page.php" style="padding-top: 35px">
+                        
+                      <input type="button" value="+" onclick="plus3()">
+                        <span class="quantity" id="price3">0</span>
+                        <input type="button" value="-" onclick="minus3()">
+
+                      </form>
+                </th>
+                <th scope="col" style="padding-top: 50px">$<span id="total3">0</span></th>
+            </tr>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col">Shopping Bag Total:</th>
+                <th scope="col">$<span id="total">0</span> </th>
+              </tr>
+            
+            
+            </tbody>
+          </table>
+
+
+    </div>
+    <script src="./index.js"></script>
+
+    </body>
+</html>    

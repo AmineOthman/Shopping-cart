@@ -1,0 +1,14 @@
+body{
+    background-color: #7ec855
+}
+
+.table{
+    width: 600px;
+    background-color: white;
+    margin-left:250px;
+    margin-top: 200px 
+    
+}
+#count{
+    width:20px;
+  }
